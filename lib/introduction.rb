@@ -8,7 +8,7 @@ language= "Ember"
 
 puts introduction(name)
 def introduction_with_language(name, language)
-  phrase= Hi, my name is "name" and "language"
+  phrase= Hi, my name is +name+ and +language+
   puts phrase
 end
 
