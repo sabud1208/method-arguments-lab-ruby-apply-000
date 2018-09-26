@@ -8,7 +8,8 @@ language= "Ember"
 
 puts introduction(name)
 def introduction_with_language(name, language)
-  puts "Hi, my name is #{name} and I am learning to program in #{language}, it's cool."
+  phrase Hi, my name is (name) and (language)
+  puts phrase
 end
 
 puts introduction_with_language(name, language)
