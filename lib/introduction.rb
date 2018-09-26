@@ -1,5 +1,5 @@
 def introduction(name)
   puts "Hi, I am #{name}."
 end
-name= Stephanie
+name= "Stephanie"
 puts introduction(name)
