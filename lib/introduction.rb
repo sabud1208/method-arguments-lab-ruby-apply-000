@@ -1,4 +1,4 @@
-def introduction
+def introduction(name, phrase)
   puts "Hi, I am #{name} and #{phrase}."
 end
 
