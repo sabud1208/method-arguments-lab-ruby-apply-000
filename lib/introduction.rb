@@ -1,5 +1,5 @@
 def introduction(name)
-  puts "Hi, I am ("name")."
+  puts "Hi, I am #{name})."
 end
-Player1= ["Stephanie"]
-puts introduction(player1)
+name= Stephanie
+puts introduction(name)
