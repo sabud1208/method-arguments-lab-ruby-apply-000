@@ -1,10 +1,10 @@
-def introduction(name, age, phrase)
-  puts "Hi, I am #{name}, I am #{age}, and #{phrase}."
+def introduction(name, x, phrase)
+  puts "Hi, I am #{name}, I am #{x}, and #{phrase}."
 end
 
 name= "Stephanie"
 phrase= "and I am learning the language of Ruby"
-age= "29"
+x= "29"
 puts introduction(name, phrase)
 
 def intro(name, language)
