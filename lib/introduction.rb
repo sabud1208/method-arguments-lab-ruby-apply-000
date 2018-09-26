@@ -1,5 +1,6 @@
-def introduction(name)
-  puts "Hi, I am #{name}."
+def introduction(name, phrase)
+  puts "Hi, I am #{name}"
 end
 name= "Stephanie"
-puts introduction(name)
+phrase= "and I am learning the language of Ruby."
+puts introduction(name, phrase)
