@@ -5,3 +5,4 @@ end
 name= "Stephanie"
 phrase= "and I am learning the language of Ruby"
 age= "29"
+puts introduction(name)
