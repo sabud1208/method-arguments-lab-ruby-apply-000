@@ -4,7 +4,7 @@ end
 
 name= "Stephanie"
 phrase= "and I am learning the language of Ruby"
-x= "29"
+x= 29
 puts introduction(name, phrase)
 
 def intro(name, language)
